@@ -43,7 +43,7 @@ export const experiencesData = [
     location: "İstanbul, Turkey",
     description: "Flutter",
     grade: null,
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "Jan 2022 - Apr 2022",
   },
   {
@@ -59,7 +59,7 @@ export const experiencesData = [
     location: "İstanbul, Turkey",
     grade: "Singularity Software Tecnologies",
     description: "React, Next.js",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "Jan 2023 - present",
   },
 ] as const;
@@ -77,18 +77,15 @@ export const educationData = [
     location: "Wroclaw, Poland",
     grade: "Computer Science",
     description: "Erasmus",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuGraduationCap),
     date: "2021",
   },
   {
     title: "WSB University ",
     location: "Poznan, Poland",
     grade: "Master",
-    // description:
-    //   "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-
     description: "Bussines Managment - Project Managment ",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(LuGraduationCap),
     date: "2024 - present",
   },
 ] as const;
