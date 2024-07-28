@@ -83,10 +83,10 @@ export const educationData = [
   {
     title: "WSB University ",
     location: "Poznan, Poland",
-    grade: "Master",
-    description: "Bussines Managment - Project Managment ",
+    grade: "English Course",
+    description: "B2 level",
     icon: React.createElement(LuGraduationCap),
-    date: "2024 - present",
+    date: "mar 2024 - jul 2024",
   },
 ] as const;
 
